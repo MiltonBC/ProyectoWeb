@@ -1,45 +1,67 @@
 body
 {
-	font-family:"Helvetica",Arial;
-	background-image: url("ZenBG.png");
-	background-size: 50%;
+	background-image: url("fondo.png");
+	background-repeat: repeat-x;
+	font-family: 'Francois One', sans-serif;
+	background-size: 6%;
 }
 #contenido
 {
 	width:960px;
 	margin:0 auto;
 	text-align:center;
-	
 }
+
 h1
 {
-	color:#000000;
-	font-size: 250%;
+	color:#f9f6d6;
+	font-size: 350%;
+	text-align: center;
 }
 nav ul li
-{
-	display:inline-block;
-	margin-right:20px;
+{	
 	color:#A6CB45;
+	font-size: 100%;
+	width:100px;
+	height:20px;
+	display:inline-block;
+	padding: 15px 16px;
+	margin-right:20px;
+	
 	cursor:pointer;
+	transition:all .6s linear;
 }
+	
+nav li:hover
+{
+	background-color: #1A202C;
+	border-radius:20px;
+}
+
 #textoPr
+
+
 {
 	width:600px;
-	height:300px;
+	height:auto;
 	background-color:#1A202C;
-	color:#90EE90;
-	margin:auto;
+	color:#f9f6d6;
+	font-size: 90%;
+	margin: auto;
+	vertical-align: auto;
 	text-align:left;
 	border-radius:20px;
-	border-color:#ff0000 #0000ff;
 	padding:20px;
 	box-shadow:0px 0px 20px rgba(0,0,0,0.5);
 }
 a
 {
-	color:#000000;
+	color:#f9f6d6;
 	font-weight:bold;
+}
+img
+{
+		float: right;
 }
 #miCanvas
 {
